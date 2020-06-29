@@ -6,7 +6,7 @@ import { Button } from './styles';
 export interface Props {
   selected?: boolean;
   isHome?: boolean;
-  hasNotifications?: true;
+  hasNotifications?: boolean;
   mentions?: number;
 }
 

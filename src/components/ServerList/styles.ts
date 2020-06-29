@@ -5,12 +5,15 @@ export const Container = styled.div`
 
     display: flex;
     flex-direction: column;
-    align-items: cennter;
+    align-items: center;
 
     background-color: var(--tertiary);
-    padding: 11px 0;
+    padding: 11px 0px;
 
-    ::webkit-scrollbar {
+    max-heigth: 100vh;
+    overflow-y: scroll;
+
+    ::-webkit-scrollbar {
         display: none;
     }
 `;
