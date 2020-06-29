@@ -69,7 +69,7 @@ export const Input = styled.input`
 
 export const InputIcon = styled(FiAtSign)`
   width: 24px;
-  height: 24px;
+  height: 20px;
 
   color: var(--gray);
 `;
