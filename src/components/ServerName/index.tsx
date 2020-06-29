@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Container, Title, ExpandIcon} from './styles';
 
-const Layout: React.FC = () => {
+const ServerName: React.FC = () => {
   return(
     <Container>
       <Title>Servidor do Rech</Title>
@@ -11,4 +11,4 @@ const Layout: React.FC = () => {
   );
 }
 
-export default Layout;
+export default ServerName;
